@@ -1,0 +1,61 @@
+/* Apply a background color and set font family for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header using class selector */
+.header {
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the image using class selector */
+.styled-image {
+    width: 100%;  /* Ensures the image scales according to the container */
+    max-width: 400px;  /* Restricts the image size to 400px */
+    height: auto;  /* Maintains the aspect ratio of the image */
+    border: 5px solid #333;  /* Adds a 5px solid border around the image */
+    padding: 10px;  /* Adds 10px of padding inside the border */
+    margin: 20px 0;  /* Adds 20px of space above and below the image */
+}
+
+/* Style for the footer using ID selector */
+#footer {
+    background-color: #333;  /* Dark background */
+    color: white;  /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for links in the footer */
+#footer a {
+    color: #4CAF50;  /* Green links */
+    text-decoration: none;  /* Removes underline */
+}
+
+#footer a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+/* Style for the paragraph in the content section */
+.content p {
+    font-size: 1.2em;  /* Larger font size */
+    line-height: 1.6;  /* Increased line height for readability */
+    margin: 15px 0;  /* Margin above and below paragraph */
+}
+
+/* Style for the unordered list in the footer */
+#footer ul {
+    list-style: none;  /* Removes default bullet points */
+    padding: 0;
+}
+
+#footer ul li {
+    display: inline;  /* Display list items inline */
+    margin-right: 15px;  /* Add space between items */
+}
